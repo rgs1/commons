@@ -26,7 +26,7 @@ from twitter.common.dirutil import safe_mkdir
 from twitter.common.lang import Compatibility, Interface
 
 from twitter.pants.base.hash_utils import hash_all
-from twitter.pants.fs import safe_filename
+from twitter.pants.fs.fs import safe_filename
 from twitter.pants.base.target import Target
 
 

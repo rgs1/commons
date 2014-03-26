@@ -69,7 +69,7 @@ python_library(
     pants(':hash_utils'),
     pants(':target'),
     pants('src/python/twitter/common/dirutil'),
-    pants('src/python/twitter/common/dirutil'),
+    pants('src/python/twitter/common/lang'),
     pants('src/python/twitter/pants/fs'),
   ]
 )
